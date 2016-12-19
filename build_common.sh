@@ -354,8 +354,6 @@ kernel_init() {
 			die "kernel_init: Failed to git fetch origin: $?"
 		popd
 
-	else
-		git clone http://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git $KPATH
 	fi
 
 	# If the torvalds tree is also required (for development builds)
