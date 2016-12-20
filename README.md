@@ -10,12 +10,12 @@ How to build:
 
         git clone https://github.com/CM-CHT/cherrytrail_kernel_build.git -b lollipop
         cd cherrytrail_kernel_build
-        git submodule update --init
 
+2. b) Manully put latte kernel sources to linux folder.
 3. Create output directory and copy defconfig:
 
         mkdir out
-        cp linux/arch/x86/configs/x86_64_chuwi_vi10plus_defconfig out/.config
+        cp uefi/cht/x86_64.config out/.config
 
 4. Compile:
 
